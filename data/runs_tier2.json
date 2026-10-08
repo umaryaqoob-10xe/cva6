@@ -1,1 +1,211 @@
-[]
+[
+  {
+    "id": 37713378531,
+    "source": "github-actions",
+    "simulator": "verilator",
+    "run_number": 1,
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531",
+    "head_branch": "master",
+    "head_sha": "81245a47",
+    "event": "schedule",
+    "created_at": "2026-10-08T01:31:48Z",
+    "updated_at": "2026-10-08T02:40:33Z",
+    "run_started_at": "2026-10-08T01:31:48Z",
+    "duration_seconds": 4125,
+    "total_jobs": 17,
+    "passed_jobs": 17,
+    "failed_jobs": 0,
+    "skipped_jobs": 0,
+    "jobs": [
+      {
+        "name": "RV64 Tier2 cv64a6_imafdc_sv39_hpdcache_wb / cv64a6_imafdc_tests",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:46Z",
+        "completed_at": "2026-10-08T02:02:11Z",
+        "duration_seconds": 505,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886639",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "cv64a6_imafdc_tests"
+      },
+      {
+        "name": "RV64 Tier2 cv64a6_imafdc_sv39_hpdcache_wb / dv-riscv-tests-p",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:46Z",
+        "completed_at": "2026-10-08T02:16:42Z",
+        "duration_seconds": 1376,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886680",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "dv-riscv-tests-p"
+      },
+      {
+        "name": "RV64 Tier2 cv64a6_imafdc_sv39_hpdcache_wb / dv-riscv-arch-test",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:46Z",
+        "completed_at": "2026-10-08T02:40:32Z",
+        "duration_seconds": 2806,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886704",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "dv-riscv-arch-test"
+      },
+      {
+        "name": "RV64 Tier2 cv64a6_imafdc_sv39_hpdcache_wb / dv-riscv-tests-v",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:46Z",
+        "completed_at": "2026-10-08T02:33:03Z",
+        "duration_seconds": 2357,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886706",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "dv-riscv-tests-v"
+      },
+      {
+        "name": "RV64 Tier2 cv64a6_imafdc_sv39_hpdcache_wb / dv-riscv-compliance",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:47Z",
+        "completed_at": "2026-10-08T02:26:10Z",
+        "duration_seconds": 1943,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886744",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "dv-riscv-compliance"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / dv-csr-embedded-tests",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:46Z",
+        "completed_at": "2026-10-08T01:56:44Z",
+        "duration_seconds": 178,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886794",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "dv-csr-embedded-tests"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / dv-riscv-tests-p",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:47Z",
+        "completed_at": "2026-10-08T02:11:23Z",
+        "duration_seconds": 1056,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886825",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "dv-riscv-tests-p"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / cv32a6_tests",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:47Z",
+        "completed_at": "2026-10-08T01:57:15Z",
+        "duration_seconds": 208,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886839",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "cv32a6_tests"
+      },
+      {
+        "name": "RV32 Tier2 cv32a60x / cv32a6_tests",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:46Z",
+        "completed_at": "2026-10-08T01:58:22Z",
+        "duration_seconds": 276,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886850",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "cv32a6_tests"
+      },
+      {
+        "name": "RV32 Tier2 cv32a60x / dv-riscv-compliance",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:47Z",
+        "completed_at": "2026-10-08T02:16:12Z",
+        "duration_seconds": 1345,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886852",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "dv-riscv-compliance"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / smoke-tests-cv32a65x",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:47Z",
+        "completed_at": "2026-10-08T01:56:33Z",
+        "duration_seconds": 166,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886856",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "smoke-tests-cv32a65x"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / coremark",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:46Z",
+        "completed_at": "2026-10-08T01:59:58Z",
+        "duration_seconds": 372,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886857",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "coremark"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / hwconfig_tests",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:46Z",
+        "completed_at": "2026-10-08T01:55:49Z",
+        "duration_seconds": 123,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886865",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "hwconfig_tests"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / dv-riscv-arch-test",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:47Z",
+        "completed_at": "2026-10-08T02:17:00Z",
+        "duration_seconds": 1393,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886882",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "dv-riscv-arch-test"
+      },
+      {
+        "name": "RV32 Tier2 cv32a60x / dv-riscv-arch-test",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:47Z",
+        "completed_at": "2026-10-08T02:16:29Z",
+        "duration_seconds": 1362,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886885",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "dv-riscv-arch-test"
+      },
+      {
+        "name": "RV32 Tier2 cv32a60x / dv-riscv-tests-p",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:47Z",
+        "completed_at": "2026-10-08T02:04:34Z",
+        "duration_seconds": 647,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886913",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "dv-riscv-tests-p"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / dv-riscv-compliance",
+        "conclusion": "success",
+        "started_at": "2026-10-08T01:53:47Z",
+        "completed_at": "2026-10-08T02:17:59Z",
+        "duration_seconds": 1452,
+        "html_url": "https://github.com/umaryaqoob-10xe/cva6/actions/runs/37713378531/job/113109886930",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "dv-riscv-compliance"
+      }
+    ]
+  }
+]
